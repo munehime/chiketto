@@ -15,16 +15,16 @@ authentication:
 cors:
   allowOrigins: CHIKETTO_CORS_ALLOWORIGINS
 
-server:
-  api:
+servers:
+  server:
     host: 0.0.0.0
     port: 80
-    publicUrl: CHIKETTO_SERVER_API_PUBLICURL
+    publicUrl: CHIKETTO_SERVERS_SERVER_PUBLICURL
   admin:
     host: 0.0.0.0
     port: 80
-    publicUrl: CHIKETTO_SERVER_ADMIN_PUBLICURL
+    publicUrl: CHIKETTO_SERVERS_ADMIN_PUBLICURL
   main:
     host: 0.0.0.0
     port: 80
-    publicUrl: CHIKETTO_SERVER_MAIN_PUBLICURL
+    publicUrl: CHIKETTO_SERVERS_MAIN_PUBLICURL

@@ -38,7 +38,7 @@ func Start() {
 
 	port := os.Getenv("PORT")
 	if port == "" {
-		port = strconv.Itoa(int(config.Get().Server.Server.Port))
+		port = strconv.Itoa(int(config.Get().Servers.Server.Port))
 	}
 
 	log.Fatal().Err(app.Listen(":" + port)).Msg("Failed to start server")

@@ -15,7 +15,7 @@ authentication:
 cors:
   allowOrigins: http://localhost:2000, http://localhost:3000, http://localhost:4000
 
-server:
+servers:
   server:
     host: localhost
     port: 2000
