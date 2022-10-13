@@ -1,0 +1,10 @@
+{
+    "name": "@chiketto/chiketto-server",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "go run ./src/main.go -env=development",
+        "build": "go build ./src/main.go",
+        "start": "GO_ENV=production GIN_MODE=release ./main"
+    }
+}

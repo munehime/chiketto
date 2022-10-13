@@ -1,0 +1,51 @@
+{
+	"name": "@chiketto/chiketto",
+	"description": "A movie ticket web app for Introducing Computer Science",
+	"author": "Group 2 - CS4273.N11.CTTT 2022",
+	"contributors": [
+		"Trường Thịnh (https://github.com/munehime)",
+		"Nguyễn Minh Thành (https://github.com/MinhTh2nh)",
+		"Nguyễn Văn Tân (https://github.com/nguyentaan)"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/munehime/chiketto.git"
+	},
+	"homepage": "https://github.com/munehime/chiketto#readme",
+	"bugs": {
+		"url": "https://github.com/munehime/chiketto/issues"
+	},
+	"license": "MIT",
+	"version": "0.1.0",
+	"private": true,
+	"workspaces": [
+		"apps/*",
+		"packages/*",
+		"assets/*"
+	],
+	"scripts": {
+		"list-packages": "pnpm list --recursive '@*/*' --json | jq -rc  '[.[].name | select( . != null )]'",
+		"dev-server": "pnpm run --dir \"./apps/server/\" dev",
+		"dev-admin": "pnpm run --dir \"./apps/admin/\" dev",
+		"dev-main": "pnpm run --dir \"./apps/main/\" dev",
+		"dev": "turbo run dev --parallel",
+		"build-server": "pnpm run --dir \"./apps/server/\" build",
+		"build-admin": "pnpm run --dir \"./apps/admin/\" build",
+		"build-main": "pnpm run --dir \"./apps/main/\" build",
+		"build": "turbo run build",
+		"start-server": "pnpm run --dir \"./apps/server/\" start",
+		"start-main": "pnpm run --dir \"./apps/main/\" start",
+		"start-admin": "pnpm run --dir \"./apps/admin/\" start",
+		"lint-admin": "pnpm run --dir \"./apps/admin/\" lint",
+		"lint-main": "pnpm run --dir \"./apps/main/\" lint",
+		"lint": "turbo run lint",
+		"format": "prettier --write \"**/*.{ts,tsx,md}\""
+	},
+	"devDependencies": {
+        "@chiketto/eslint-config-custom": "*",
+        "eslint": "8.25.0",
+		"prettier": "^2.7.1",
+		"turbo": "^1.5.6",
+		"typescript": "4.8.4"
+	}
+}

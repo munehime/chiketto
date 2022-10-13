@@ -1,0 +1,64 @@
+# IDEA-based IDEs
+.idea/
+
+# VS Code
+.vscode
+
+dist/
+
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+.next/
+out/
+
+# production
+build
+
+# executable build
+main.exe
+main
+!main/
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.pnpm-error.log*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+# local config files
+config/*.yaml
+config/*.json
+!default.yaml
+!custom-environment-variables.yaml
+!production.yaml
+
+# .env files
+**/.env
+
+# cypress
+**/cypress/videos/
+**/cypress/screenshots/
+
+# vendor
+**/vendor/
+
+# redis database
+*.rdb
