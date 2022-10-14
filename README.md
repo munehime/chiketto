@@ -8,7 +8,7 @@
 </h1>
 
 <h4 align="center">
-    A movie ticket web app for Introducing Computer Science class.
+    A movie ticket web app for CS4273 - Introducing Software Engineering class.
 </h4>
 
 <p align="center">
