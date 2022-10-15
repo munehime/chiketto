@@ -10,6 +10,7 @@
     },
     "dependencies": {
         "@chiketto/shared": "*",
+        "@chiketto/ui": "*",
         "@fortawesome/fontawesome-svg-core": "^6.2.0",
         "@fortawesome/free-brands-svg-icons": "^6.2.0",
         "@fortawesome/free-regular-svg-icons": "^6.2.0",
@@ -32,8 +33,8 @@
         "@chiketto/tsconfig": "*",
         "@types/config": "^3.3.0",
         "@types/node": "18.8.5",
-        "@types/react": "18.0.21",
-        "@types/react-dom": "18.0.6",
+        "@types/react": "^18.0.21",
+        "@types/react-dom": "^18.0.6",
         "@types/react-redux": "^7.1.24",
         "autoprefixer": "^10.4.12",
         "postcss": "^8.4.18",
