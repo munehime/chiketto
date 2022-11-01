@@ -22,6 +22,8 @@ func Start() {
 		JSONEncoder: json.Marshal,
 	})
 
+	app.Static("/", "./public")
+
 	app.Use(logger.New())
 	app.Use(recover.New())
 

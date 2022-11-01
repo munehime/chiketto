@@ -62,3 +62,7 @@ config/*.json
 
 # redis database
 *.rdb
+
+# server assets
+**/server/assets/**/*
+!**/server/assets/**/.gitkeep*

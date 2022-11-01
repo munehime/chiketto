@@ -1,6 +1,6 @@
 import Router from "next/router";
 import { useEffect, useState } from "react";
-import { AppProps } from "next/app";
+import { type AppProps } from "next/app";
 import "@chiketto/shared/styles/globals.css";
 import { Loader } from "@chiketto/ui";
 
@@ -26,7 +26,7 @@ const App = ({ Component, pageProps, router }: AppProps) => {
     }, []);
 
     return (
-    <Layout>
+        <Layout>
             {loading ? (
                 <Loader/>
             ) : (
