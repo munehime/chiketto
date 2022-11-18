@@ -1,0 +1,27 @@
+database:
+  uri: CHIKETTO_DATABASE_URI
+
+redis:
+  url: CHIKETTO_REDIS_URL
+
+authentication:
+  cookieDomain: CHIKETTO_AUTHENTICATION_COOKIEDOMAIN
+  jwt:
+    accessTokenSecret: CHIKETTO_AUTHENTICATION_JWT_ACCESSTOKENSECRET
+    refreshTokenSecret: CHIKETTO_AUTHENTICATION_JWT_REFRESHTOKENSECRET
+
+cors:
+  allowOrigins: CHIKETTO_CORS_ALLOWORIGINS
+
+server:
+  api:
+    publicUrl: CHIKETTO_SERVER_API_PUBLICURL
+  admin:
+    publicUrl: CHIKETTO_SERVER_ADMIN_PUBLICURL
+  main:
+    publicUrl: CHIKETTO_SERVER_MAIN_PUBLICURL
+
+settings:
+  productionDeployment:
+    __name: "CHIKETTO_PRODUCTION_DEPLOYMENT"
+    __format: "yaml"
