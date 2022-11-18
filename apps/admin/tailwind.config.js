@@ -3,9 +3,12 @@
  */
 
 module.exports = {
+    presets: [
+        require("@chiketto/tailwind-config")
+    ],
     content: [
-        "./pages/**/*.{ts,tsx}",
-        "./common/components/**/*.{ts,tsx}"
+        "./src/pages/**/*.{ts,tsx}",
+        "./src/common/components/**/*.{ts,tsx}"
     ],
     darkMode: "media",
     theme: {

@@ -5,7 +5,7 @@ type Config struct {
 	Redis          Redis          `yaml:"redis"`
 	Authentication Authentication `yaml:"authentication"`
 	CORS           CORS           `yaml:"cors"`
-	Server         Server         `yaml:"server"`
+	Servers        Servers        `yaml:"servers"`
 }
 
 type Database struct {
@@ -34,7 +34,7 @@ type CORS struct {
 	AllowOrigins string `yaml:"allowOrigins"`
 }
 
-type Server struct {
+type Servers struct {
 	Server ServerSettings `yaml:"server"`
 	Admin  ServerSettings `yaml:"admin"`
 	Main   ServerSettings `yaml:"main"`

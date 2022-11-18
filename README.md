@@ -8,7 +8,7 @@
 </h1>
 
 <h4 align="center">
-    A movie ticket web app for Introducing Computer Science class.
+    A movie ticket web app for CS4273 - Introducing Software Engineering class.
 </h4>
 
 <p align="center">
@@ -25,7 +25,7 @@
 
 ## Links
 * Task Management Table: [Trello](https://trello.com/b/dlrBLXMd)
-* UI/UX Prototype: Figma (coming soon)
+* UI/UX Prototype: [Figma](https://www.figma.com/file/QIV8WwZpPNIWb392jopkLz/chiketto)
 
 ## Tech Stack
 * Front-end:

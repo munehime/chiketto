@@ -1,9 +1,9 @@
 const config = require("config");
 const spawn = require("child_process").spawn;
 
-const PORT = process.env.PORT || config.get("server.main.port");
+const PORT = process.env.PORT || config.get("servers.main.port");
 
-process.env["SERVER_API_PUBLICURL"] = config.get("server.server.publicUrl");
+process.env["SERVERS_SERVER_PUBLICURL"] = config.get("servers.server.publicUrl");
 
 const startServer = (command) => {
     spawn("npx", ["next", command, "-p", PORT], {
