@@ -25,7 +25,7 @@
 
 ## Links
 * Task Management Table: [Trello](https://trello.com/b/dlrBLXMd)
-* UI/UX Prototype: [Figma](https://www.figma.com/file/QIV8WwZpPNIWb392jopkLz/chiketto)
+* UI/UX Prototype: [Figma](https://www.figma.com/file/amwM0VkNISBso2QjLmImfM/chiketto?node-id=365%3A1748&t=znEYkqoKyttUEqSn-1)
 
 ## Tech Stack
 * Front-end:
