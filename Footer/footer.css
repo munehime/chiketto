@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+.container-footer{
+    position: relative;
+    width: 1920px;
+    background: #ffffff;
+}
+/* ----------Phan Dau tien -------------- */
+.sub-footer{
+position: absolute;
+width: 100%;
+left: 0;
+top: 0;
+background: #FFFFFF;
+display: block;
+border-top:ridge 2px #E8CEFE ;
+}
+/* Half left */
+.sub-footer .copy-right{
+
+    position: absolute;
+    width: 1390px;
+    left: 0px;
+}
+.copy-right h3{
+    position: absolute;
+    width: 1390px;
+    height: 70px;
+    left: 3%;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 38px;
+    color: #000000;
+    align-items: center;
+    display: flex;
+}
+/* Half right */
+.sub-footer .detail-contact{
+position: absolute;
+width: 530px;
+height: 60px;
+left: 1390px;
+mix-blend-mode: darken;
+}
+.sub-footer .detail-contact h3{
+        position: absolute;
+        width: fit-content;
+        height: 100%;
+        /* top: calc(50% - 144px/2 + 1.41px); */
+        font-style: normal;
+        font-weight: 100;
+        font-size: 22px;
+        line-height: 38px;
+        /*Can giua theo chieu doc */
+        align-items: center;
+        display: flex; 
+        left: 18%;
+        /* justify-content: center; Can giua theo chieu Ngang*/
+}
+.detail-contact .icon-field{
+    position: absolute;
+    width: fit-content;
+    height: 60px;
+    top: 15%;
+    left: 40%;
+}
+.detail-contact .icon-field i{
+    font-size: 22px;
+    line-height: 38px;
+    margin-left: 25px;
+    margin-right: 15px;
+}
+.container-footer .main-footer{
+    position: absolute;
+    width: 1920px;
+    left: 0px;
+    top: 64.5px;
+    background: #FFFFFF;
+}
+/* ----------Phan center-------------- */
+.main-footer .register-zone{
+    position: absolute;
+    width: 1920px;
+    height: 122px;
+    left: 0px;
+    top: 1px;}
+.main-footer .register-zone .notification{
+    position: absolute;
+    width: 1920px;
+    height: 31px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.register-zone .notification h3{
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 40px;
+color: #000000;
+}
+.register-zone .input-email{
+    width: 1920.21px;
+    height: 122px;
+    left: 0px;
+    transform: translateY(35px);
+}
+.register-zone .input-email h2{
+    position: absolute;
+    width: 80%;
+    height: 44px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 50px;
+    display: block;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.54);
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    border-bottom: 1px solid;
+}
+.register-zone .input-email .input-form{
+    position: absolute;
+    width: 84%;
+    height: 40px;
+    left: 7%;
+    top: 0;
+    /* background: rgba(217, 217, 217, 0.9); */
+    opacity: 0.56;
+    /* box-shadow: inset 0px 4px 4px rgb(0 0 0 / 25%); */
+    /* border-radius: 56px; */
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    border: none;
+}
+.register-zone .input-email .ButtonRegister{
+    margin-left: -20px;
+    position: absolute;
+    width: 273.21px;
+    height: 60%;
+    left: calc(50% - 243.21px/2 + 821.6px);
+    /* top: calc(50% - 121.95px/2 - 146.53px); */
+    border: 1px dashed #9747FF;
+    border-radius: 10px;
+    font-size: 30px;
+    background: #E8CEFE;
+    /* align-items: center; */
+    text-align: center;
+    /* justify-content: space-around; */
+    top: -18%;
+}
+/* ----------Phan cuoi cung-------------- */
+.main-footer .introduction{
+    position: absolute;
+    width: 1920px;
+    height: fit-content;
+    left: 0px;
+    top: 100px;
+    background: #FFFFFF;
+    /* background: url(/FinalProjectNMCNPM/picture/footer-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+.main-footer .introduction .column{
+        /* grid-template-columns: 33%; */
+        width: 33%;
+        display: inline-flex;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        /* align-items: center; */
+        /* text-align: center; */
+        justify-content: space-around;
+}
+.introduction .column .test h2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.introduction .column .test h3{
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 15px;
+    display: block;
+    width: 80%;
+    margin-left: 14%;
+
+}
+.introduction .column .test .payment{
+    /* margin-left: -2%; */
+    height: 57px;
+    background: url(../picture/payment.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+    width: 55%;
+    height: 50%;
+    /* margin-right: -29%; */
+    /* right: 2%; */
+    position: absolute;
+    right: -25%;
+}

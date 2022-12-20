@@ -1,0 +1,564 @@
+/*-----------------------Header-----------------------*/
+/*-----------------------Header-----------------------*/
+/*-----------------------Header-----------------------*/
+/*-----------------------Header-----------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+button{
+    cursor: pointer;
+}
+body{
+position: relative;
+width: 100%;
+background: #FFFFFF;
+/* Bat tat scroll bar aka khi no oversize cua page cung khong keo thay duoc */
+/* overflow: hidden; */
+border: solid 1px;
+}
+.container{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+}
+/* .sub-nav-bar */
+.container .sub-nav-bar{
+position: absolute;
+width: 100%;
+height: 59px;
+left: 0px;
+top: 0px;
+background: #FFFFFF;
+/* border: solid 1px; */
+}
+.sub-nav-bar .menu{
+    position: absolute;
+    text-align: right;
+    height: 44px;
+    width: 100%;
+    left: 0;
+    top: 0px;
+    padding-top: 5px;
+}
+.sub-nav-bar .menu li{
+    display: inline-flex;
+    margin-left: 20px;
+    align-items: baseline;
+    font-size: 11px;
+    line-height: 20px;
+    color: #000000;
+    padding-top: 10px;
+    font-weight: 700;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+/* navbar */
+.container .nav-bar{
+    position: absolute;
+    width: 100%;
+    height: 60px ;
+    left: 0px;
+    top: 44px;
+    background: #FFFFFF;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    border-top: solid 1px;
+}
+.nav-bar .logo-slot img{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 0px;
+    left: 20px;
+    /* transform: matrix(1, 0, 0, 1, 0, 0); */
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.nav-bar .option{
+    position: absolute;
+    width: 320px;
+    height: 50px;
+    left: 40%;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-bar .option h2{
+    width: auto;
+    height: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 15px;
+    color: #000000;
+    padding-top: 10px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.nav-bar .language{
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    right: 10%;
+    top: 12%;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    background: url(../Header@UnAuthenticated/home_css.css) rgb(236, 210, 237);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-bar .language .img-holder{
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    overflow: hidden;
+    background :url(../picture/USA.png);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+/*----------------Unauthoriz----------------Before Login*/
+/*----------------Unauthoriz----------------Before Login*/
+/*----------------Unauthoriz----------------Before Login*/
+.nav-bar .button-sigin{
+    border-radius: 15px;
+    position: absolute;
+    width: 5%;
+    height: 50px;
+    right: 5%;
+    top: 6%;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    background: #ffffff;
+    display: flex;
+    align-items: flex-end;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+.nav-bar .button-sigin h2{
+font-style: normal;
+font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+}
+/*---------------- Authoriz----------------------------After Login */
+/*---------------- Authoriz----------------------------After Login */
+/*---------------- Authoriz----------------------------After Login */
+
+.nav-bar .button-sigin .User-Menu{
+position: absolute;
+width: 100%;
+/* height: 100%; */
+display: flex;
+align-items: center;
+}
+.nav-bar .button-sigin .User-Menu .Avatar{
+    position: absolute;
+    /* right: 60%; */
+    width: 50px;
+    height: 50px;
+    background: url(../picture/AVATADISCORD.jpg);
+    border: 4px solid #ECD2ED;
+    border-radius: 100px;
+    background-size: contain;
+}
+.nav-bar .button-sigin .User-Menu .UserName{
+    position: absolute;
+    width: fit-content;
+    display: block;
+    color: #000000;
+    left:18%;
+}
+.nav-bar .button-sigin .User-Menu .UserName h2{
+left: 0;
+font-style: normal;
+font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+/*----------------BodyHome test-------------------*/
+/*----------------BodyHome test-------------------*/
+/*----------------BodyHome test-------------------*/
+/*----------------BodyHome test-------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+.subnav{
+    width: 100%;
+    height: 36px;
+    background-color: #D4A5FD;
+    position: absolute;
+}
+.subnav-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+    height: 100%;
+    color: black;
+}
+.home-page{
+    display: flex;
+    align-items: center;
+}
+.home{
+    width: 25px;
+    margin-right: 20px;
+}
+.infor-container{
+    flex: 2;
+}
+.infor-list{
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+}
+.infor-list-item{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-weight: 600px;
+}
+.special{
+    text-decoration: underline;
+}
+.more-than{
+    width: 15px;
+}
+.film-container{
+    margin-top: 110px;
+    background: #E7D5F7;
+    /* height: calc(100vh - 50px); */
+    height: 55vh;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+.film-contain-container{
+
+}
+.feature-content-film{
+    height: 89vh;
+    padding: 50px 20%;
+}
+.featured-title-film{
+    width: 200px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 60px;
+    letter-spacing: 0.1em;
+}
+.line{
+    width: 100%;
+    height: 0px;
+    left: 140.5px;
+    top: 302.7px;
+    border: 1px solid #000000;
+    transform: rotate(-0.02deg);
+}
+.main-content-film{
+    display: flex;
+    justify-content: space-around;
+    padding:24px 0;
+    width: 100%;
+    height: 380px;
+}
+.image-frame{
+    width: 250px;
+    height: 350px;
+    border-radius: 5px;
+    padding-right: 20px;
+}
+.background-film{
+    width: 250px;
+    height: 330px;
+    border: 3px solid #fff;
+    /* box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff; */
+}
+.container-box-film{
+    width: 80%;
+    /* right: -13%; */
+    /* position: absolute; */
+    /* margin-right: 20%; */
+    margin-left: 5%;
+}
+.infor-film{
+    list-style: none;
+    background-color: #F3EAFB;
+    height: 330px;
+    border-radius: 5px;
+    padding:10px;
+    /* box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.infor-film div{
+    flex: 1;
+}
+.infor-film-item{
+    font-weight: 100px;
+    font-size: 20px;
+}
+.main-title{
+    font-weight:100;
+    font-size: 24px;
+}
+.buy-ticket{
+    align-self: flex-start;
+    color: black;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    /* border-radius: 6.5em; */
+    border-radius: 10px;
+    background: #FF0000;
+    border: 1px solid #dacdcd;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+.buy-ticket:hover{
+    border: 1px solid rgb(54, 50, 50);
+    color: white;
+    box-shadow: 4px 4px 12px #c5c5c5,
+    -4px -4px 12px #ffffff;
+}
+.buy-ticket:active{
+    box-shadow: 4px 4px 12px #c5c5c5,
+    -4px -4px 12px #ffffff;
+}
+.buy-ticket-item{
+    font-size: 18px;
+}
+/*-----------------------Footer-----------------------*/
+/*-----------------------Footer-----------------------*/
+/*-----------------------Footer-----------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container-footer{
+    position: relative;
+    width: 1920px;
+    background: #ffffff;
+}
+/* ----------Phan Dau tien -------------- */
+.sub-footer{
+position: absolute;
+width: 100%;
+left: 0;
+top: 0;
+background: #FFFFFF;
+display: block;
+}
+/* Half left */
+.sub-footer .copy-right{
+
+    position: absolute;
+    width: 1390px;
+    left: 0px;
+}
+.copy-right h3{
+    position: absolute;
+    width: 1390px;
+    height: 70px;
+    left: 3%;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 38px;
+    color: #000000;
+    align-items: center;
+    display: flex;
+}
+/* Half right */
+.sub-footer .detail-contact{
+    position: absolute;
+    width: 530px;
+    height: 60px;
+    right: -4%;
+    mix-blend-mode: darken;
+}
+.sub-footer .detail-contact h3{
+        position: absolute;
+        width: fit-content;
+        height: 100%;
+        /* top: calc(50% - 144px/2 + 1.41px); */
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 15px;
+        line-height: 38px;
+        /*Can giua theo chieu doc */
+        align-items: center;
+        display: flex; 
+        left: 18%;
+        /* justify-content: center; Can giua theo chieu Ngang*/
+}
+.detail-contact .icon-field{
+    position: absolute;
+    width: fit-content;
+    height: 60px;
+    top: 15%;
+    left: 40%;
+}
+.detail-contact .icon-field i{
+    font-size: 22px;
+    line-height: 38px;
+    margin-left: 25px;
+    margin-right: 15px;
+}
+.container-footer .main-footer{
+    position: absolute;
+    width: 1920px;
+    left: 0px;
+    top: 64.5px;
+    background: #FFFFFF;
+}
+/* ----------Phan center-------------- */
+.main-footer .register-zone{
+    position: absolute;
+    width: 1920px;
+    height: 122px;
+    left: 0px;
+    top: 1px;}
+.main-footer .register-zone .notification{
+    position: absolute;
+    width: 1920px;
+    height: 31px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.register-zone .notification h3{
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 40px;
+color: #000000;
+}
+.register-zone .input-email{
+    width: 1920.21px;
+    height: 122px;
+    left: 0px;
+    transform: translateY(35px);
+}
+.register-zone .input-email h2{
+    position: absolute;
+    width: 80%;
+    height: 44px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 50px;
+    display: block;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.54);
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    border-bottom: 1px solid;
+}
+.register-zone .input-email .input-form{
+    position: absolute;
+    width: 84%;
+    height: 40px;
+    left: 7%;
+    top: 0;
+    /* background: rgba(217, 217, 217, 0.9); */
+    opacity: 0.56;
+    /* box-shadow: inset 0px 4px 4px rgb(0 0 0 / 25%); */
+    /* border-radius: 56px; */
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    border: none;
+    outline: none;
+}
+.register-zone .input-email .ButtonRegister{
+    margin-left: -20px;
+    position: absolute;
+    width: 273.21px;
+    height: 60%;
+    left: calc(47% - 243.21px/2 + 821.6px);
+    /* top: calc(50% - 121.95px/2 - 146.53px); */
+    border-radius: 10px;
+    font-size: 30px;
+    background: #E8CEFE;
+    /* align-items: center; */
+    text-align: center;
+    /* justify-content: space-around; */
+    top: -18%;
+}
+/* ----------Phan cuoi cung-------------- */
+.main-footer .introduction{
+    position: absolute;
+    width: 1920px;
+    height: fit-content;
+    left: 0px;
+    top: 100px;
+    background: #FFFFFF;
+    /* background: url(/FinalProjectNMCNPM/picture/footer-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+.main-footer .introduction .column{
+        /* grid-template-columns: 33%; */
+        width: 33%;
+        display: inline-flex;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        /* align-items: center; */
+        /* text-align: center; */
+        justify-content: space-around;
+}
+.introduction .column .test h2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.introduction .column .test h3{
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 15px;
+    display: block;
+    width: 83%;
+    margin-left: 14%;
+
+}
+.introduction .column .test .payment{
+    /* margin-left: -2%; */
+    height: 57px;
+    background: url(../picture/payment.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+    width: 55%;
+    height: 50%;
+    /* margin-right: -29%; */
+    /* right: 2%; */
+    position: absolute;
+    right: -27%;
+}

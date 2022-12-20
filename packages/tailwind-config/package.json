@@ -1,9 +1,0 @@
-{
-    "name": "@chiketto/tailwind-config",
-    "version": "0.0.0",
-    "private": true,
-    "main": "tailwind.config.js",
-    "devDependencies": {
-        "tailwindcss": "^3.1.8"
-    }
-}

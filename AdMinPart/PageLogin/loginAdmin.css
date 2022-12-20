@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+.container-login{
+margin-top: 0;
+position: relative;
+width: 100%;
+height: 906px;
+background: #FFFFFF;
+
+}
+.container-login .half-left{
+    position: absolute;
+    width: 33%;
+    height: 769px;
+    left: calc(50% - 555px/2 - 298.5px);
+    top: calc(55% - 769px/2 - 40.5px);
+}
+.half-left .tittle {
+    position: absolute;
+    width: 65%;
+    height: 44px;
+    left: 19%;
+    top: 10%;
+}
+.half-left .tittle h2{
+    position: absolute;
+    width: 100%;
+    height: 44px;
+    /* left: calc(50% - 382px/2); */
+    top: calc(50% - 44px/2);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 44px;
+    text-align: center;
+    color: #224957;
+}
+.half-left .user-name{
+    position: absolute;
+    width: 80%;
+    height: 67px;
+    left: 9%;
+    margin-top: 24%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.user-name .background{
+    position: absolute;
+    width: 100%;
+    height: 67px;
+    left: calc(50% - 516px/2 + 6.5px);
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    }
+.user-name .logo {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 4%;
+    top: 15%;
+}
+.user-name input{
+    border: none;
+    outline: none;
+    position: absolute;
+    width: fit-content;
+    height: 29.78px;
+    left: calc(31% - 67.08px/2 + 6.55px);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    top: 27%;   
+}
+.half-left .password{
+    position: absolute;
+    width: 80%;
+    height: 67px;
+    left: 9%;
+    margin-top: 40%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.password .background{
+    position: absolute;
+    width: 100%;
+    height: 67px;
+    left: calc(50% - 516px/2 + 6.5px);
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    }
+.password .logo {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 4%;
+    top: 15%;
+}
+.password input{
+    border: none;
+    outline: none;
+    position: absolute;
+    width: fit-content;
+    height: 29.78px;
+    left: calc(31% - 67.08px/2 + 6.55px);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    top: 27%;   
+}
+.half-left .Button{
+    position: absolute;
+    width: 80%;
+    height: 67px;
+    left: 9%;
+    margin-top: 55%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.Button .background{
+    
+    position: absolute;
+    width: 100%;
+    height: 67px;
+    left: calc(50% - 516px/2 + 6.5px);
+    background: #E8CEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    }
+.Button .text{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* left: calc(39% - 67.08px/2 + 6.55px); */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.Button .text button{
+
+    overflow: hidden;
+    background: #E8CEFE;
+    border: none;
+    outline: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #224957;
+    letter-spacing: 4.2px;
+    border-radius: 10px;
+}
+.Button .text button h3{
+    /* background: #E8CEFE; */
+    border: none;
+    outline: none;
+    /* position: absolute; */
+    /* width: 100%; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #224957;
+    letter-spacing: 4.2px;
+}
+.Button .text button:active{
+    box-shadow: 4px 4px 12px #282628,
+    -4px -4px 12px #ffffff;
+    background: #c9b0df;
+}
+.half-left .ForgetPassword{
+    margin-top: 72%;
+    align-items: center;
+    text-align: center; 
+}
+.ForgetPassword .text h3{
+    font-style: normal;
+    font-weight: 300;
+}
+.half-left .GetHelp{
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+}
+.half-left .GetHelp a{
+    text-decoration: none;
+}
+.half-left .TermPolices{
+    align-items: center;
+    text-align: center;
+    margin-top: 28%;
+}
+.logo i{
+    position: absolute;
+    font-size: 44px;
+    width: 100%;
+    height: 100%;
+}
+.GetHelp .text h3{
+    font-weight: 800;
+    font-style: normal;
+    color: #003443;
+}
+.TermPolices .text h3{
+    font-weight: 300;
+}
+.container-login .half-right{
+    position: absolute;
+    width: 33%;
+    height: 769px;
+    left: calc(83% - 555px/2 - 298.5px);
+    top: calc(55% - 769px/2 - 40.5px);
+}
+.half-right .image{
+    position: absolute;
+    width: 100%;
+    height: 550px;
+    left: 0px;
+    top: 10%;
+    background-image: url(/picture/backgroundAdminPAge.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.container-form{
+    position: absolute;
+    width: 66%;
+    height: 85%;
+    left: 20%;
+    top: 9%;
+}
+.container-form .LoginForm_Container{
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 254, 254, 0.68);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+}
+.container-form .line-skecth{
+    position: absolute;
+    width: 43%;
+    height: 0px;
+    left: 29%;
+    top: 52%;
+    opacity: 0.51;
+    border: 1px solid #000000;
+    transform: rotate(-90deg);
+}
+.BackgroundLoginForm{
+    width: 100%;
+    height: 100%;
+}
+.BackgroundLoginForm .background1{
+height: 50%;
+left: 0px;
+right: 0px;
+top: 0px;
+background: #E8CEFE;
+}
+.BackgroundLoginForm .background2{
+    height: 50%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    
+    background: #FFFFFF;
+}
