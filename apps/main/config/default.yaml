@@ -4,19 +4,19 @@ database:
 
 redis:
   dbIndex: 0
-  url: redis://:p3048f7933cdd45aed6663e7ffeb3c777e0cb36663dc91545f9bc151fc2332ab8@ec2-44-210-204-108.compute-1.amazonaws.com:7479
+  url: redis://localhost:6379
 
 authentication:
   cookieDomain: localhost
   jwt:
-    accessTokenSecret: yCD0QVMLR2He9uO1i72N7otvAMC4UPgHpBO6bAgTybhal0nCJi7Yjete86kcBrYh
-    refreshTokenSecret: hMQwLDflPa2vxAJfITCZiEMtaTwpDYvGwti3YDpx3JKOIIldDwTe2VMUAzg9JHFU
+    accessTokenSecret: a random string
+    refreshTokenSecret: a random string
 
 cors:
   allowOrigins: http://localhost:2000, http://localhost:3000, http://localhost:4000
 
 server:
-  api:
+  server:
     host: localhost
     port: 2000
     publicUrl: http://localhost:2000
