@@ -35,7 +35,7 @@ Final Project of Introduction Software Engrineering Course
 * Front-end:
   - HTML /CSS
 * Back-end:
-  - [Fiber](https://github.com/gofiber/fiber)
+  - [ExpressJS](https://expressjs.com)
 * Database:
   - [MongoDB](https://www.mongodb.com)
 
