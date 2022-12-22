@@ -23,8 +23,8 @@ Final Project of Introduction Software Engrineering Course
 </p>
 
 ## Participants:
-* Leader: [Tống Trường Thịnh - 20521958](https://github.com/munehime)
-* Member: [Nguyễn Minh Thành - 20521920](https://github.com/MinhTh2nh)
+* Member: [Tống Trường Thịnh - 20521958](https://github.com/munehime)
+* Leader: [Nguyễn Minh Thành - 20521920](https://github.com/MinhTh2nh)
 * Member: [Nguyễn Văn Tân - 20521880](https://github.com/nguyentaan)
 
 ## Links
